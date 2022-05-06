@@ -427,11 +427,11 @@ footer .logo {
     font-size: 50px;
   }
 
-  .container-xl {
-    width: 400px;
+  /* .container-xl {
+    max-width: 400px;
     overflow: hidden;
     margin: 0 auto;
-  }
+  } */
 
   header .container-xl {
     display: block;
