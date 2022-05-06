@@ -10,7 +10,7 @@ As part of an Amalitech project, I created this landing page.
 
 ## URL
 
-[Adams Portfolio Site](https://zealous-lamport-a28455.netlify.app/)
+[Suite Landing Page](https://zealous-lamport-a28455.netlify.app/)
 
 ## Installation
 
