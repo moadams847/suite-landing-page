@@ -428,7 +428,7 @@ footer .logo {
   }
 
   .container-xl {
-    max-width: 450px;
+    width: 400px;
     overflow: hidden;
     margin: 0 auto;
   }
@@ -477,13 +477,6 @@ footer .logo {
     align-items: center;
     width: 100%;
   }
-
-  /* header .item-3 {
-    width: 10%;
-    align-self: center;
-    right: 4rem;
-    margin-top: 4rem;
-  } */
 
   /* card-------------- */
   #card-section {
