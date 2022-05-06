@@ -471,11 +471,19 @@ footer .logo {
   }
 
   header .item-3 {
+    position: sticky;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
+
+  /* header .item-3 {
+    width: 10%;
+    align-self: center;
+    right: 4rem;
+    margin-top: 4rem;
+  } */
 
   /* card-------------- */
   #card-section {
