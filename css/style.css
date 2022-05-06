@@ -38,34 +38,11 @@ body {
 
 /* utility classes */
 
-/* containers --- */
-.container-xxl {
-  max-width: 1320px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
+/* container --- */
 .container-xl {
   max-width: 1140px;
   overflow: hidden;
   margin: 0 auto;
-}
-
-.container-lg {
-  max-width: 960px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.container-m {
-  max-width: 720px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.container-fluid {
-  max-width: 100%;
-  overflow: hidden;
 }
 
 /* text ------------*/
@@ -309,12 +286,6 @@ footer .logo {
     font-size: 58px;
   }
 
-  .container-xl {
-    max-width: 700px;
-    overflow: hidden;
-    margin: 0 auto;
-  }
-
   header .container-xl {
     display: flex;
     justify-content: center;
@@ -426,12 +397,6 @@ footer .logo {
   .heading-xl-bold {
     font-size: 50px;
   }
-
-  /* .container-xl {
-    max-width: 400px;
-    overflow: hidden;
-    margin: 0 auto;
-  } */
 
   header .container-xl {
     display: block;
