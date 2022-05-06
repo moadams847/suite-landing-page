@@ -8,12 +8,9 @@ As part of an Amalitech project, I created this landing page.
 
 ![Suite Landing Page](assets/preview.jpg "Suite Landing Page")
 
-![My Portfolio Site](img/psite.PNG "My Portfolio Site")
-
-
 ## URL
 
-[Suite Landing Page](https://zealous-lamport-a28455.netlify.app/)
+[Suite Landing Page Site](https://zealous-lamport-a28455.netlify.app/)
 
 ## Installation
 
