@@ -7,27 +7,13 @@
     <!-- regular css -->
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- mobile: smartphone and tablet -->
-    <link
-      rel="stylesheet"
-      media="screen and (max-width: 768px)"
-      href="css/mobile.css"
-    />
-
-    <!-- widescreen -->
-    <link
-      rel="stylesheet"
-      media="screen and (min-width: 1100px)"
-      href="css/wideScreen.css"
-    />
-
     <title>Suite Landing Page | Home</title>
   </head>
   <body>
     <!-- navbar -->
     <nav id="navbar">
       <div class="container-xl">
-        <h1 class="heading-m">Suite</h1>
+        <img src="assets/logo.svg" alt="logo" />
         <button class="btn-secondary">Request Beta Access</button>
       </div>
     </nav>
@@ -37,15 +23,24 @@
       <div class="container-xl">
         <!-- item1 -->
         <div class="item-1 item">
-          <div class="text-container-heading mb-4">
-            <h1 class="heading-xl-bold">
-              <span class="heading-xl-regular">A</span> super solution
-            </h1>
-            <h1 class="heading-xl-bold">
-              <span class="heading-xl-regular">for your </span> business.
-            </h1>
+          <div class="text-container-heading">
+            <div class="solution-container">
+              <img
+                class="solution-img"
+                src="assets/pattern-curved-line-1.svg"
+                alt="curved line"
+              />
+              <div class="h-1">
+                <h1 class="heading-xl-bold">
+                  <span class="heading-xl-regular">A</span> super solution
+                </h1>
+                <h1 class="heading-xl-bold">
+                  <span class="heading-xl-regular">for your </span> business.
+                </h1>
+              </div>
+            </div>
           </div>
-          <div class="text-container-body mb-4">
+          <div class="text-container-body">
             <p class="text">
               Our marketing and sales automations help you scale your outreach
               to get more leads for your company.
@@ -55,34 +50,90 @@
         </div>
 
         <!-- item-2 -->
-        <div class="item-2 item">
+        <div class="item-2 item display-1">
           <img src="assets/image-hero-portrait.webp" alt="phone" />
+        </div>
+
+        <div class="item-2 item display-2">
+          <img src="assets/image-hero-landscape.webp" alt="phone" />
         </div>
 
         <!-- item-3 -->
         <div class="item-3 item">
-          <div class="mb-4">
+          <div class="stats">
             <!--  -->
             <h1 class="heading-l-bold">2K+</h1>
             <p class="text">COMPANIES</p>
           </div>
 
           <!--  -->
-          <div class="mb-4">
+          <div class="stats">
             <h1 class="heading-l-bold">8</h1>
             <p class="text">LANGUAGES</p>
           </div>
 
           <!--  -->
-          <div class="mb-4">
+          <div class="stats">
             <h1 class="heading-l-bold">1.2M</h1>
             <p class="text">LEADS</p>
           </div>
         </div>
       </div>
     </header>
+
+    <!-- card-section -->
+    <section id="card-section">
+      <div class="container-xl">
+        <div class="card">
+          <div class="img-container">
+            <img
+              class="card-img-1"
+              src="assets/image-jeremy-large@2x.webp"
+              alt="Jeremy"
+            />
+          </div>
+
+          <div class="svg-container">
+            <svg width="66" height="54" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M64.25.153C59.995 27.67 38.646 45.003.2 52.153"
+                stroke="#FAF8F6"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+          </div>
+
+          <div class="text-container">
+            <h1 class="heading-l-bold mb-4">
+              <span class="heading-l-regular">it just</span> works
+            </h1>
+
+            <p class="text">
+              " I really like how it is an all-in-one solution that handle many
+              of the tasks that you would normally need separate tools to do the
+              same job. This thing is a miracle worker "
+            </p>
+
+            <h3 class="heading-m">JEREMY ROBINSON</h3>
+            <p class="text">CMO, FLYO</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="container-xl">
+        <img class="logo" src="assets/logo.svg" alt="logo" />
+        <p class="text">Copyright - Suite</p>
+        <div class="icon-container">
+          <img class="icon" src="assets/icon-facebook.svg" alt="facebook" />
+          <img class="icon" src="assets/icon-twitter.svg" alt="twitter" />
+          <img class="icon" src="assets/icon-instagram.svg" alt="instagram" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
-
-<!-- <button class="btn-primary">Request Beta Access</button>
-<button class="btn-secondary">Request Beta Access</button> -->
