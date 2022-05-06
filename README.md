@@ -6,7 +6,7 @@ As part of an Amalitech project, I created this landing page.
 
 ## Screenshot
 
-![My Portfolio Site](assets/preview.jpg "Suite Landing Page")
+![Suite Landing Page](assets/preview.jpg "Suite Landing Page")
 
 ## URL
 
